@@ -35,6 +35,7 @@ public class ServletDemo1 extends HttpServlet {
 				jObject.put("id", result.getInt(1));
 				jObject.put("O2", result.getString(2));
 				jObject.put("CO2", result.getString(3));
+				jObject.put("WD", result.getString(5));
 				jsonArray.add(jObject);   //将封装好的json对象放入json数组
 			}
 
